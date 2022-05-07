@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PortilloRamirezKarlaMarcelaApp</string>
+    <string name="pinta_text">PINTA</string>
+    <string name="galon_text">GALON</string>
+    <string name="cono_text">CONO</string>
+    <string name="continuar_btn">Continuar</string>
+    <string name="cantidad_de_sorbete_hint">Cantidad de sorbete</string>
+    <string name="resumen_text">RESUMEN:</string>
+    <string name="forma_text">Forma</string>
+    <string name="cantidad_text">Cantidad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

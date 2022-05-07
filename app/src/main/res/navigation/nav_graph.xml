@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sorbeteFragmento">
+    <fragment
+        android:id="@+id/sorbeteFragmento"
+        android:name="com.portillo.portilloramirezkarlamarcelaapp.SorbeteFragmento"
+        android:label="fragment_sorbete_fragmento"
+        tools:layout="@layout/fragment_sorbete_fragmento" >
+        <action
+            android:id="@+id/action_sorbeteFragmento_to_saborSorbete3"
+            app:destination="@id/saborSorbete3" />
+    </fragment>
+    <fragment
+        android:id="@+id/saborSorbete3"
+        android:name="com.portillo.portilloramirezkarlamarcelaapp.SaborSorbete"
+        android:label="fragment_sabor_sorbete"
+        tools:layout="@layout/fragment_sabor_sorbete" >
+        <action
+            android:id="@+id/action_saborSorbete3_to_sorbeteFragmento"
+            app:destination="@id/sorbeteFragmento" />
+        <action
+            android:id="@+id/action_saborSorbete3_to_finishFragment"
+            app:destination="@id/finishFragment" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="helado" />
+    </fragment>
+    <fragment
+        android:id="@+id/finishFragment"
+        android:name="com.portillo.portilloramirezkarlamarcelaapp.FinishFragment"
+        android:label="fragment_finish"
+        tools:layout="@layout/fragment_finish" >
+        <argument
+            android:name="sabor"
+            app:argType="string"
+            android:defaultValue="Sabor" />
+    </fragment>
+</navigation>
