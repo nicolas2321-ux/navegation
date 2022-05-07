@@ -1,0 +1,6 @@
+se activa el activity (modulo y proyecto) se crea en proyecto ext{} y adentro van
+se activa el fragment (modulo y proyecto)
+se activa el databinding (modulo y proyecto)
+se activa navigation (modulo y proyecto)
+se activa safe Argas (proyecto pero al principio y se cambia ext y se pone abajo de buildscrit y se borra nav_version
+se pone plugins en modulo
